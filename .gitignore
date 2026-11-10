@@ -1,0 +1,19 @@
+# Dados da biblioteca e acesso ao WhatsApp: NUNCA publicar
+auth/
+*.db
+*.db-journal
+local.json
+
+# Gerados na instalação ou no uso
+node_modules/
+__pycache__/
+*.pyc
+*.log
+dedalus_debug_*.html
+*.anterior
+versao.txt
+iniciar_bot.bat
+package-lock.json
+
+# Pacotes gerados
+*.zip

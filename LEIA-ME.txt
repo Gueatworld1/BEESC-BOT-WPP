@@ -1,0 +1,30 @@
+BEESC BOT - WHATSAPP DA BIBLIOTECA EESC
+(não usa Docker e não precisa reiniciar o computador)
+
+INSTALAR OU ATUALIZAR
+1. Entre no Windows com a conta que vai ficar sempre aberta no PC.
+2. Extraia este .zip inteiro (botão direito > Extrair tudo).
+3. Dê dois cliques em instalar.bat. Ele baixa sozinho o que faltar (Node.js e
+   Python), sem pedir administrador e sem precisar do winget.
+4. O painel do bot abre sozinho. Se aparecer um QR code, escaneie com o
+   WhatsApp Business da biblioteca (Aparelhos conectados > Conectar um aparelho).
+
+USAR
+Abra o ícone "BEESC BOT" na área de trabalho (ou no menu Iniciar).
+No painel você:
+  - vê se o bot está conectado e quantas pessoas foram atendidas hoje;
+  - edita as mensagens do menu, com prévia de como aparecem no celular;
+  - define o horário de atendimento da equipe;
+  - testa a busca de livros no Dedalus;
+  - acompanha a atividade e reinicia ou desliga o bot.
+
+O bot roda em segundo plano (sem janela) e liga sozinho quando esta conta
+entra no Windows. Rodar o instalador de novo atualiza o programa sem apagar
+as mensagens nem o horário.
+
+VÁRIOS COMPUTADORES
+Instale em cada computador. Depois, no painel de cada um, vá em
+Ajustes > Vários computadores e informe a MESMA pasta compartilhada da rede.
+Mensagens, horário e estatísticas passam a ser os mesmos em todos.
+Só um computador responde de cada vez; se ele desligar, outro assume
+sozinho em cerca de 1 minuto. Cada computador escaneia o QR code uma vez.
